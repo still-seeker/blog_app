@@ -8,7 +8,7 @@ class ArticlesController < ApplicationController
   end
 
   def new
-    @article = Article.find(params[:id])
+    @article = Article.new
   end
 
   def create
